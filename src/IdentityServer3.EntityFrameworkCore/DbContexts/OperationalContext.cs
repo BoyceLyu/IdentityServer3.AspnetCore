@@ -9,9 +9,6 @@ namespace IdentityServer3.EntityFrameworkCore.DbContexts
             : base(options)
         { }
 
-        public OperationalContext(DbContextOptions<OperationalContext> options)
-           : base(options)
-        { }
 
         public DbSet<Consent> Consents { get; set; }
 

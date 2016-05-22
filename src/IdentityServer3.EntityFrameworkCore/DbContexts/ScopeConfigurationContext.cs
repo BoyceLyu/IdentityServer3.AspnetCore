@@ -11,9 +11,6 @@ namespace IdentityServer3.EntityFrameworkCore.DbContexts
             : base(options)
         { }
 
-        public ScopeConfigurationContext(DbContextOptions<ScopeConfigurationContext> options)
-            : base(options)
-        { }
 
         public DbSet<Scope> Scopes { get; set; }
 

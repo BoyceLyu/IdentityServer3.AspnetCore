@@ -5,15 +5,13 @@ using IdentityServer3.EntityFrameworkCore.Entities;
 
 namespace IdentityServer3.EntityFrameworkCore.DbContexts
 {
+ 
     public class ClientConfigurationContext : BaseContext
     {
         public ClientConfigurationContext(DbContextOptions options)
             : base(options)
         { }
 
-        public ClientConfigurationContext(DbContextOptions<ClientConfigurationContext> options)
-            : base(options)
-        { }
 
         public DbSet<Client> Clients { get; set; }
 
