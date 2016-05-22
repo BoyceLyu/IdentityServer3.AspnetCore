@@ -1,0 +1,35 @@
+{
+  "version": "0.9.1-*",
+  "title": " IdentityServer3.EntityFrameworkCore",
+  "description": "Entity Framework 7 persistence layer for IdentityServer3",
+  "authors": [ "BoyceLyu" ],
+  "packOptions": {
+    "iconUrl": "https://avatars3.githubusercontent.com/u/15891935?v=3&s=64",
+    "tags": [ "IdentityServer OpenID Connect OpenIDConnect OAuth2 ASP.NET WebAPI SSO EntityFramework EF Claims Identity Federation 2020" ],
+    "projectUrl": "https://github.com/Downtime-ll/IdentityServer3.EntityFrameworkCore",
+    "licenseUrl": "https://raw.githubusercontent.com/Downtime-ll/IdentityServer3.EntityFrameworkCore/master/LICENSE.txt",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Downtime-ll/IdentityServer3.EntityFrameworkCore"
+    }
+  },
+ 
+  "tooling": {
+    "defaultNamespace": "IdentityServer3.EntityFrameworkCore"
+  },
+  "dependencies": {
+    "AutoMapper": "4.2.0",
+    "Newtonsoft.Json": "7.0.1",
+    "IdentityServer3": "2.5.0",
+    "Microsoft.Extensions.DependencyInjection": "1.0.0-rc2-final",
+    "Microsoft.EntityFrameworkCore.Relational": "1.0.0-rc2-final"
+  },
+  "frameworks": {
+    "net451": {
+      "frameworkAssemblies": {
+        "System.Runtime": "4.0.10.0"
+      }
+    }
+  }
+ 
+}

@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0-*",
+  "description": "IdentityServer3.EntityFrameworkCore.IntegrationTests Class Library",
+  "authors": [ "Class Library template" ],
+  "tooling": {
+    "defaultNamespace": "IdentityServer3.EntityFrameworkCore.IntegrationTests"
+  },
+  "dependencies": {
+    "xunit": "2.2.0-beta1-build3239",
+    "AutoMapper": "4.2.1",
+    "Microsoft.EntityFrameworkCore.InMemory": "1.0.0-rc2-final",
+    "IdentityServer3": "2.5.0",
+    "Microsoft.Extensions.DependencyInjection": "1.0.0-rc2-final",
+    "IdentityServer3.EntityFrameworkCore": "0.9.1-*"
+  },
+  "frameworks": {
+    "net451": { }
+  },
+  "commands": {
+    "test": "xunit.runner.dnx"
+  }
+}
